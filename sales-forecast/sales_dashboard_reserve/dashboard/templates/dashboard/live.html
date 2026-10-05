@@ -1,0 +1,134 @@
+{% extends "dashboard/base.html" %}
+{% block title %}Live — Sales Forecast Dashboard{% endblock %}
+{% block content %}
+<h1><span class="live-dot" id="liveDot" style="display:none;"></span>Live Stream</h1>
+<p class="subtitle">Real-time view of the Kafka → PySpark Structured Streaming pipeline. Run
+    <code>spark_streaming_consumer.py</code> and <code>kafka_producer.py</code> to see data appear here.</p>
+
+<div id="waitingState" class="card empty-state">
+    Waiting for the streaming consumer to send data... Make sure
+    <code>spark_streaming_consumer.py</code> is running, then run
+    <code>kafka_producer.py</code> to send transactions.
+</div>
+
+<div id="liveContent" style="display:none;">
+    <div class="kpi-grid">
+        <div class="card">
+            <div class="kpi-label">Transactions received (this session)</div>
+            <div class="kpi-value" id="kpiCount">0</div>
+        </div>
+        <div class="card">
+            <div class="kpi-label">Total revenue streamed</div>
+            <div class="kpi-value positive" id="kpiRevenue">$0</div>
+        </div>
+        <div class="card">
+            <div class="kpi-label">Last updated</div>
+            <div class="kpi-value" style="font-size:1.1rem;" id="kpiUpdated">—</div>
+        </div>
+    </div>
+
+    <div class="card" style="margin-bottom:24px;">
+        <h3 style="margin-top:0;">Live Revenue by Region + Category</h3>
+        <canvas id="liveChart" height="90"></canvas>
+    </div>
+
+    <div class="card" style="padding:0;">
+        <h3 style="margin:20px 24px 0;">Recent Transactions</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Time</th><th>Store</th><th>Region</th><th>Product</th>
+                    <th>Category</th><th>Units</th><th>Revenue</th>
+                </tr>
+            </thead>
+            <tbody id="recentBody">
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script>
+    let liveChart = null;
+
+    function fmtMoney(n) {
+        return '$' + Number(n).toLocaleString(undefined, { maximumFractionDigits: 0 });
+    }
+
+    async function pollLiveData() {
+        try {
+            const res = await fetch("{% url 'live_data' %}");
+            const data = await res.json();
+
+            const waiting = document.getElementById('waitingState');
+            const content = document.getElementById('liveContent');
+            const dot = document.getElementById('liveDot');
+
+            if (!data.has_data) {
+                waiting.style.display = 'block';
+                content.style.display = 'none';
+                dot.style.display = 'none';
+                return;
+            }
+
+            waiting.style.display = 'none';
+            content.style.display = 'block';
+            dot.style.display = 'inline-block';
+
+            document.getElementById('kpiCount').textContent = data.total_transactions.toLocaleString();
+            document.getElementById('kpiRevenue').textContent = fmtMoney(data.total_revenue);
+            document.getElementById('kpiUpdated').textContent = new Date().toLocaleTimeString();
+
+            // Update chart
+            const labels = data.aggregates.map(a => a.region + ' / ' + a.category);
+            const values = data.aggregates.map(a => a.total_revenue);
+
+            if (!liveChart) {
+                liveChart = new Chart(document.getElementById('liveChart'), {
+                    type: 'bar',
+                    data: {
+                        labels: labels,
+                        datasets: [{ label: 'Revenue', data: values, backgroundColor: '#38bdf8' }]
+                    },
+                    options: {
+                        responsive: true,
+                        indexAxis: 'y',
+                        plugins: { legend: { display: false } },
+                        scales: {
+                            x: { ticks: { color: '#94a3b8' }, grid: { color: '#334155' } },
+                            y: { ticks: { color: '#94a3b8' }, grid: { display: false } },
+                        }
+                    }
+                });
+            } else {
+                liveChart.data.labels = labels;
+                liveChart.data.datasets[0].data = values;
+                liveChart.update();
+            }
+
+            // Update recent transactions table
+            const tbody = document.getElementById('recentBody');
+            tbody.innerHTML = '';
+            data.recent.forEach(row => {
+                const tr = document.createElement('tr');
+                const time = row.received_at ? new Date(row.received_at).toLocaleTimeString() : '';
+                tr.innerHTML = `
+                    <td>${time}</td>
+                    <td>${row.store_id}</td>
+                    <td>${row.region}</td>
+                    <td>${row.product_id}</td>
+                    <td>${row.category}</td>
+                    <td>${row.units_sold}</td>
+                    <td>$${Number(row.sales_amount).toFixed(2)}</td>
+                `;
+                tbody.appendChild(tr);
+            });
+        } catch (err) {
+            console.error('Live poll failed:', err);
+        }
+    }
+
+    pollLiveData();
+    setInterval(pollLiveData, 2500);
+</script>
+{% endblock %}

@@ -17,7 +17,7 @@ New Command Prompt:
 ```cmd
 hdfs dfs -ls /project/sales_data
 ```
-Should list `sales_data.csv` (~1.1 GB).
+Should list `sales_data.csv` (~1.12 GB).
 
 ### A2. Start Kafka
 New Command Prompt:

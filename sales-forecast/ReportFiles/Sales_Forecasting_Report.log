@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.9.2)  13 SEP 2026 15:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.9.2)  6 OCT 2026 15:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -738,27 +738,61 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 tex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count342
-) (Sales_Forecasting_Report.aux)
+) (Sales_Forecasting_Report.aux
+
+LaTeX Warning: Label `fig:my-picture' multiply defined.
+
+
+LaTeX Warning: Label `fig:my-picture' multiply defined.
+
+
+LaTeX Warning: Label `fig:my-picture' multiply defined.
+
+
+LaTeX Warning: Label `fig:my-picture' multiply defined.
+
+
+LaTeX Warning: Label `fig:my-picture' multiply defined.
+
+
+LaTeX Warning: Label `fig:my-picture' multiply defined.
+
+
+LaTeX Warning: Label `fig:my-picture' multiply defined.
+
+
+LaTeX Warning: Label `fig:my-picture' multiply defined.
+
+
+LaTeX Warning: Label `fig:my-picture' multiply defined.
+
+
+LaTeX Warning: Label `fig:my-picture' multiply defined.
+
+
+LaTeX Warning: Label `fig:my-picture' multiply defined.
+
+)
 \openout1 = `Sales_Forecasting_Report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -823,7 +857,7 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 95.
+Package hyperref Info: Link coloring OFF on input line 98.
  (Sales_Forecasting_Report.out) (Sales_Forecasting_Report.out)
 \@outlinefile=\write4
 \openout4 = `Sales_Forecasting_Report.out'.
@@ -863,7 +897,7 @@ Package hyperref Info: Link coloring OFF on input line 95.
 
 
 LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <24> not available
-(Font)              size <24.88> substituted on input line 111.
+(Font)              size <24.88> substituted on input line 114.
 
 [1
 
@@ -878,26 +912,145 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.161 \newpage
+l.164 \newpage
                [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 165--165
+Underfull \hbox (badness 10000) in paragraph at lines 168--168
 [][][]\T1/cmr/bx/n/12 Abstract[]|
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 165.
+(hyperref)                removing `\@ifnextchar' on input line 168.
 
 [2] [3] [4] [5]
-Overfull \hbox (4.55144pt too wide) in paragraph at lines 362--363
+Overfull \hbox (4.55144pt too wide) in paragraph at lines 365--366
 \T1/cmtt/m/n/10.95 -token-provider-kafka-0-10\T1/cmr/m/n/10.95 , \T1/cmtt/m/n/1
 0.95 hadoop-client-runtime\T1/cmr/m/n/10.95 , etc.) re-solved au-to-mat-i-cally
  via Maven
  []
 
-[6] [7] [8] [9] (Sales_Forecasting_Report.aux)
+<../screeshots/hdfsbrowser2.png, id=198, 763.05075pt x 395.076pt>
+File: ../screeshots/hdfsbrowser2.png Graphic file (type png)
+<use ../screeshots/hdfsbrowser2.png>
+Package pdftex.def Info: ../screeshots/hdfsbrowser2.png  used on input line 379
+.
+(pdftex.def)             Requested size: 422.77664pt x 218.89601pt.
+[6 <../screeshots/hdfsbrowser2.png>]
+<../screeshots/hdfs.png, id=207, 943.72575pt x 543.2295pt>
+File: ../screeshots/hdfs.png Graphic file (type png)
+<use ../screeshots/hdfs.png>
+Package pdftex.def Info: ../screeshots/hdfs.png  used on input line 386.
+(pdftex.def)             Requested size: 422.77664pt x 243.35686pt.
+<../screeshots/producer.png, id=208, 767.86874pt x 332.442pt>
+File: ../screeshots/producer.png Graphic file (type png)
+<use ../screeshots/producer.png>
+Package pdftex.def Info: ../screeshots/producer.png  used on input line 396.
+(pdftex.def)             Requested size: 422.77664pt x 183.04149pt.
+<../screeshots/kafkaStream.png, id=209, 663.6795pt x 224.037pt>
+File: ../screeshots/kafkaStream.png Graphic file (type png)
+<use ../screeshots/kafkaStream.png>
+Package pdftex.def Info: ../screeshots/kafkaStream.png  used on input line 402.
+
+(pdftex.def)             Requested size: 422.77664pt x 142.71999pt.
+<../screeshots/kafka.png, id=210, 1147.28625pt x 617.30624pt>
+File: ../screeshots/kafka.png Graphic file (type png)
+<use ../screeshots/kafka.png>
+Package pdftex.def Info: ../screeshots/kafka.png  used on input line 408.
+(pdftex.def)             Requested size: 422.77664pt x 227.47664pt.
+ [7 <../screeshots/hdfs.png> <../screeshots/producer.png>]
+<../screeshots/zookeper.png, id=219, 1147.8885pt x 617.30624pt>
+File: ../screeshots/zookeper.png Graphic file (type png)
+<use ../screeshots/zookeper.png>
+Package pdftex.def Info: ../screeshots/zookeper.png  used on input line 415.
+(pdftex.def)             Requested size: 422.77664pt x 227.35419pt.
+ [8 <../screeshots/kafkaStream.png> <../screeshots/kafka.png>]
+<../screeshots/consumer.png, id=228, 1154.51324pt x 617.30624pt>
+File: ../screeshots/consumer.png Graphic file (type png)
+<use ../screeshots/consumer.png>
+Package pdftex.def Info: ../screeshots/consumer.png  used on input line 425.
+(pdftex.def)             Requested size: 422.77664pt x 226.05432pt.
+
+[9 <../screeshots/zookeper.png> <../screeshots/consumer.png>]
+File: ../screeshots/consumer.png Graphic file (type png)
+<use ../screeshots/consumer.png>
+Package pdftex.def Info: ../screeshots/consumer.png  used on input line 434.
+(pdftex.def)             Requested size: 422.77664pt x 226.05432pt.
+<../screeshots/database.png, id=237, 277.63725pt x 145.7445pt>
+File: ../screeshots/database.png Graphic file (type png)
+<use ../screeshots/database.png>
+Package pdftex.def Info: ../screeshots/database.png  used on input line 443.
+(pdftex.def)             Requested size: 170.72258pt x 113.81145pt.
+<../screeshots/daily_sales_predictions.png, id=238, 801.59476pt x 489.027pt>
+File: ../screeshots/daily_sales_predictions.png Graphic file (type png)
+<use ../screeshots/daily_sales_predictions.png>
+Package pdftex.def Info: ../screeshots/daily_sales_predictions.png  used on inp
+ut line 449.
+(pdftex.def)             Requested size: 422.77664pt x 257.92946pt.
+<../screeshots/live_region_category_totals.png, id=239, 566.71725pt x 409.53pt>
+
+File: ../screeshots/live_region_category_totals.png Graphic file (type png)
+<use ../screeshots/live_region_category_totals.png>
+Package pdftex.def Info: ../screeshots/live_region_category_totals.png  used on
+ input line 455.
+(pdftex.def)             Requested size: 426.80962pt x 284.5444pt.
+ [10 <../screeshots/database.png>]
+File: ../screeshots/live_region_category_totals.png Graphic file (type png)
+<use ../screeshots/live_region_category_totals.png>
+Package pdftex.def Info: ../screeshots/live_region_category_totals.png  used on
+ input line 461.
+(pdftex.def)             Requested size: 426.80962pt x 284.5444pt.
+ [11 <../screeshots/daily_sales_predictions.png> <../screeshots/live_region_cat
+egory_totals.png>]
+<../screeshots/overview.png, id=255, 976.8495pt x 513.117pt>
+File: ../screeshots/overview.png Graphic file (type png)
+<use ../screeshots/overview.png>
+Package pdftex.def Info: ../screeshots/overview.png  used on input line 472.
+(pdftex.def)             Requested size: 426.78929pt x 199.16745pt.
+<../screeshots/predictions.png, id=256, 979.86075pt x 572.1375pt>
+File: ../screeshots/predictions.png Graphic file (type png)
+<use ../screeshots/predictions.png>
+Package pdftex.def Info: ../screeshots/predictions.png  used on input line 478.
+
+(pdftex.def)             Requested size: 426.7892pt x 170.71718pt.
+<../screeshots/average_revenue_by_week.png, id=257, 754.017pt x 287.27325pt>
+File: ../screeshots/average_revenue_by_week.png Graphic file (type png)
+<use ../screeshots/average_revenue_by_week.png>
+Package pdftex.def Info: ../screeshots/average_revenue_by_week.png  used on inp
+ut line 484.
+(pdftex.def)             Requested size: 426.79126pt x 170.7171pt.
+ [12 <../screeshots/overview.png>]
+<../screeshots/actual_and_predicted_revenue.png, id=266, 835.32076pt x 419.166p
+t>
+File: ../screeshots/actual_and_predicted_revenue.png Graphic file (type png)
+<use ../screeshots/actual_and_predicted_revenue.png>
+Package pdftex.def Info: ../screeshots/actual_and_predicted_revenue.png  used o
+n input line 490.
+(pdftex.def)             Requested size: 426.78545pt x 170.7143pt.
+<../screeshots/prediction_accuracy.png, id=267, 849.77475pt x 358.33875pt>
+File: ../screeshots/prediction_accuracy.png Graphic file (type png)
+<use ../screeshots/prediction_accuracy.png>
+Package pdftex.def Info: ../screeshots/prediction_accuracy.png  used on input l
+ine 496.
+(pdftex.def)             Requested size: 426.7924pt x 170.71571pt.
+<../screeshots/prediction_error.png, id=268, 751.00575pt x 281.25075pt>
+File: ../screeshots/prediction_error.png Graphic file (type png)
+<use ../screeshots/prediction_error.png>
+Package pdftex.def Info: ../screeshots/prediction_error.png  used on input line
+ 502.
+(pdftex.def)             Requested size: 426.78282pt x 170.71297pt.
+ [13 <../screeshots/predictions.png> <../screeshots/average_revenue_by_week.png
+> <../screeshots/actual_and_predicted_revenue.png>]
+<../screeshots/live-stream.png, id=279, 805.20825pt x 486.01575pt>
+File: ../screeshots/live-stream.png Graphic file (type png)
+<use ../screeshots/live-stream.png>
+Package pdftex.def Info: ../screeshots/live-stream.png  used on input line 508.
+
+(pdftex.def)             Requested size: 426.7952pt x 199.17133pt.
+ [14 <../screeshots/prediction_accuracy.png> <../screeshots/prediction_error.pn
+g>] [15 <../screeshots/live-stream.png>] [16] [17] (Sales_Forecasting_Report.au
+x)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
@@ -907,48 +1060,65 @@ L3 programming layer <2025-12-24>
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
 
-Package rerunfilecheck Info: File `Sales_Forecasting_Report.out' has not change
-d.
-(rerunfilecheck)             Checksum: 28F1471F7E35F182FC9B504EB8E7C415;2907.
+
+LaTeX Warning: There were multiply-defined labels.
+
+
+Package rerunfilecheck Warning: File `Sales_Forecasting_Report.out' has changed
+.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Sales_Forecasting_Report.out':
+(rerunfilecheck)             Before: CFEEC1B2AACC08DF392484F4B29D0333;3344
+(rerunfilecheck)             After:  28F1471F7E35F182FC9B504EB8E7C415;2907.
  ) 
 Here is how much of TeX's memory you used:
- 23857 strings out of 467871
- 447058 string characters out of 5418377
- 861856 words of memory out of 5000000
- 52309 multiletter control sequences out of 15000+600000
+ 24015 strings out of 467871
+ 452199 string characters out of 5418377
+ 862345 words of memory out of 5000000
+ 52438 multiletter control sequences out of 15000+600000
  652385 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,15n,104p,1215b,1007s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\rimwe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti
-1095.pk> <C:\Users\rimwe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\ecsx1440.pk> <C:\Users\rimwe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
-/dpi600\tcss0900.pk> <C:\Users\rimwe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
-pen/ec/dpi450\ectt0800.pk> <C:\Users\rimwe\AppData\Local\MiKTeX\fonts/pk/ljfour
-/jknappen/ec/dpi600\ecss0800.pk> <C:\Users\rimwe\AppData\Local\MiKTeX\fonts/pk/
-ljfour/jknappen/ec/dpi600\ectt0800.pk> <C:\Users\rimwe\AppData\Local\MiKTeX\fon
-ts/pk/ljfour/jknappen/ec/dpi600\ecss0900.pk> <C:\Users\rimwe\AppData\Local\MiKT
-eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx0900.pk> <C:\Users\rimwe\AppData\Loca
-l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\rimwe\AppDat
-a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1000.pk> <C:\Users\rimwe\
-AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\
-rimwe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\
-Users\rimwe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk
-> <C:\Users\rimwe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1
-095.pk> <C:\Users\rimwe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600
-\ecbx1200.pk> <C:\Users\rimwe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/
-dpi600\ecbx1095.pk> <C:\Users\rimwe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknapp
-en/ec/dpi600\ecrm0900.pk> <C:\Users\rimwe\AppData\Local\MiKTeX\fonts/pk/ljfour/
-jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\rimwe\AppData\Local\MiKTeX\fonts/pk/l
-jfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\rimwe\AppData\Local\MiKTeX\font
-s/pk/ljfour/jknappen/ec/dpi600\ecti1440.pk> <C:\Users\rimwe\AppData\Local\MiKTe
-X\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk> <C:\Users\rimwe\AppData\Local
-\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2488.pk> <C:\Users\rimwe\AppData
-\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk><C:/Users/rimwe/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users
-/rimwe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on Sales_Forecasting_Report.pdf (10 pages, 299846 bytes).
+
+pdfTeX warning (dest): name{subsection.6.2} has been referenced but does not ex
+ist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.6.1} has been referenced but does not ex
+ist, replaced by a fixed one
+
+ <C:\Users\rimwe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti10
+95.pk> <C:\Users\rimwe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
+ecsx1440.pk> <C:\Users\rimwe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/d
+pi600\tcss0900.pk> <C:\Users\rimwe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappe
+n/ec/dpi450\ectt0800.pk> <C:\Users\rimwe\AppData\Local\MiKTeX\fonts/pk/ljfour/j
+knappen/ec/dpi600\ecss0800.pk> <C:\Users\rimwe\AppData\Local\MiKTeX\fonts/pk/lj
+four/jknappen/ec/dpi600\ectt0800.pk> <C:\Users\rimwe\AppData\Local\MiKTeX\fonts
+/pk/ljfour/jknappen/ec/dpi600\ecss0900.pk> <C:\Users\rimwe\AppData\Local\MiKTeX
+\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx0900.pk> <C:\Users\rimwe\AppData\Local\
+MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\rimwe\AppData\
+Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1000.pk> <C:\Users\rimwe\Ap
+pData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\ri
+mwe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Us
+ers\rimwe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> 
+<C:\Users\rimwe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm109
+5.pk> <C:\Users\rimwe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\e
+cbx1200.pk> <C:\Users\rimwe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dp
+i600\ecbx1095.pk> <C:\Users\rimwe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen
+/ec/dpi600\ecrm0900.pk> <C:\Users\rimwe\AppData\Local\MiKTeX\fonts/pk/ljfour/jk
+nappen/ec/dpi600\ecrm1440.pk> <C:\Users\rimwe\AppData\Local\MiKTeX\fonts/pk/ljf
+our/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\rimwe\AppData\Local\MiKTeX\fonts/
+pk/ljfour/jknappen/ec/dpi600\ecti1440.pk> <C:\Users\rimwe\AppData\Local\MiKTeX\
+fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk> <C:\Users\rimwe\AppData\Local\M
+iKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2488.pk> <C:\Users\rimwe\AppData\L
+ocal\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk><C:/Users/rimwe/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/r
+imwe/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
+Output written on Sales_Forecasting_Report.pdf (18 pages, 1801083 bytes).
 PDF statistics:
- 964 PDF objects out of 1000 (max. 8388607)
- 38 named destinations out of 1000 (max. 500000)
- 181 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1069 PDF objects out of 1200 (max. 8388607)
+ 67 named destinations out of 1000 (max. 500000)
+ 282 words of extra memory for PDF output out of 10000 (max. 10000000)
 
